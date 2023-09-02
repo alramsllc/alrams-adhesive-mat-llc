@@ -40,7 +40,7 @@ nav ul{
     list-style: none;
     justify-content: space-between;
     align-items: center;
-   
+    margin-top: 10px;
 }
 nav ul li{
     margin-right: 10px;
@@ -359,6 +359,21 @@ video{
     margin-right: 20px;
   }
   .procol-2 button:hover{
+    background: rgb(252, 3, 3);
+    color: #fff;
+    border: none;
+  }
+  .col-2 button{
+    padding: 7px 18px;
+    background: transparent;
+    border: 2px solid black;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+    transition: 1s;
+    margin: 20px;
+  }
+  .col-2 button:hover{
     background: rgb(252, 3, 3);
     color: #fff;
     border: none;
